@@ -172,13 +172,12 @@ El denominador es de segundo grado debido a los **dos elementos independientes d
 
 ### 3. Representación mediante EDO de primer orden
 
-Definiendo las variables de estado $x_1(t)=P_A(t)$ y $x_2(t)=Q(t)$, el modelo anterior se expresa como
+Definiendo las variables de estado $x_1(t)=Q(t)$ y $x_2(t)=P_A(t)$, el modelo anterior se expresa como
 
 $$
 \begin{aligned}
-\dot x_1(t)&=\frac{x_2(t)}{C},\\
-\dot x_2(t)&=\frac{P_{ao}(t)-R x_2(t)-x_1(t)}{L},\\
-y(t)&=x_1(t).
+\dot x_1(t)&=\frac{P_{ao}(t)-R x_1(t)- x_2(t)}{L},\\
+\dot x_2(t)&=\frac{x_1(t)}{C}.
 \end{aligned}
 $$
 
