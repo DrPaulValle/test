@@ -182,19 +182,6 @@ y(t)&=x_1(t).
 \end{aligned}
 $$
 
-En forma matricial,
-
-$$
-\dot{\mathbf{x}}(t)=
-\underbrace{\begin{bmatrix}0&1/C\\-1/L&-R/L\end{bmatrix}}_{A}
-\mathbf{x}(t)+
-\underbrace{\begin{bmatrix}0\\1/L\end{bmatrix}}_{B}P_{ao}(t),
-\qquad
-P_A(t)=\underbrace{\begin{bmatrix}1&0\end{bmatrix}}_{C_s}\mathbf{x}(t).
-$$
-
-Esta representación es equivalente a las ecuaciones y a la función de transferencia anteriores; se incluye para cumplir el objetivo de establecer un sistema lineal de primer orden a partir del modelo físico.
-
 [Volver al contenido](#contenido)
 
 ---
