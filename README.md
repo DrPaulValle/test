@@ -331,8 +331,9 @@ En una implementación real o mediante el bloque **PID Controller**, deben revis
 Utilizar la opción **Tune** del bloque `PID Controller` de Simulink y registrar las ganancias $k_P$, $k_I$ y $k_D$ obtenidas. La respuesta al escalón de lazo cerrado debe satisfacer ambos requisitos:
 
 $$
-\boxed{t_s\le100\,\mathrm{ms}},\qquad
-\boxed{M_p\le10\%}.
+\boxed{t_s \leq 100\,\mathrm{ms}},
+\qquad
+\boxed{M_p \leq 0.10}
 $$
 
 Para una referencia unitaria, el límite de sobreimpulso corresponde a un pico no mayor de aproximadamente $1.1\,\mathrm{V}$. Conservar la evidencia de la respuesta empleada para verificar los criterios.
